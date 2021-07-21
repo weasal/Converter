@@ -1,5 +1,5 @@
 # Converter
-A DC-DC converter built around the TI LM2576
+A DC-DC converter built around the TI LM2576.  Designed for use in the MATE Robotics competition in order to cconvert 48 Volts to necessary volatges. 
 # Purpose
 For the MATE robotics Explorer Category, we needed to deal with a 48V power supply.  As most of our electronics were not compatible with this voltage, we needed to convert it into something we could use.  The voltages required were primarily 18V for our thrusters and 5V and 12V for various electronics and servos.  Due to certain restrictions on how we could handle this conversion, size, efficiency, and simplicity were key concerns.  Because of this, I elected to go with a switching power supply, specifically a buck converter, which allowed for high efficiency and widespread and available documentation.  While there was an option to build a more fundamental design, both ease of assembly and availability of documentation drove me to use a Texas Instruments IC.  While the practical purpose was paramount, I also took the opportunity to educate myself about converter topology, board layout best practices, and PCB design tools. 
 # Design Process
